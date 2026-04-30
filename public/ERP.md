@@ -248,27 +248,13 @@ Al diseñar un simulador de transporte aéreo, puedes restringir la clase
 implementan la interfaz tendrás la certeza de que cualquier objeto pasado a un objeto del aeropuerto, 
 ya sea un un maldito :::tag Avión ::: , un :::tag Helicóptero ::: o hasta
 :::tag GrifoDomesticado ::: si quieres, podrá aterrizar o despegar de este tipo de aeropuerto.
-Puedes cambiar la implementación del método :::tag volar ::: en
-esas clases del modo que quieras. Siempre y cuando la firma
-del método sea la misma que se declaró en la interfaz, todas
-las instancias de la clase :::tag Aeropuerto ::: pueden funcionar bien
-con tus objetos voladores.
+Puedes cambiar la implementación del método :::tag volar ::: en esas clases del modo que quieras. Siempre y cuando la firma del método sea la misma que se declaró en la interfaz, todas las instancias de la clase :::tag Aeropuerto ::: pueden funcionar bien con tus objetos voladores.
 
 ### Herencia
 
-La *herencia* es la capacidad de crear nuevas clases sobre otras
-existentes. La principal ventaja de la herencia es la reutiliza
-ción de código. Si quieres crear una clase ligeramente diferen
-te a una ya existente, no hay necesidad de duplicar el código.
-En su lugar, extiendes la clase existente y colocas la funciona
-lidad adicional dentro de una subclase resultante que hereda
-los campos y métodos de la superclase.
+La *herencia* es la capacidad de crear nuevas clases sobre otras existentes. La principal ventaja de la herencia es la reutilización de código. Si quieres crear una clase ligeramente diferente a una ya existente, no hay necesidad de duplicar el código. En su lugar, extiendes la clase existente y colocas la funcionalidad adicional dentro de una subclase resultante que hereda los campos y métodos de la superclase.
 
-La consecuencia del uso de la herencia es que las subclases
-tienen la misma interfaz que su clase padre. No puedes escon
-der un método en una subclase si se declaró en la superclase.
-También debes implementar todos los métodos abstractos, au
-nque no tengan sentido en tu subclase.
+La consecuencia del uso de la herencia es que las subclases tienen la misma interfaz que su clase padre. No puedes esconder un método en una subclase si se declaró en la superclase. También debes implementar todos los métodos abstractos, aunque no tengan sentido en tu subclase.
 
 ##pag:14
 
