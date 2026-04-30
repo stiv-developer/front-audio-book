@@ -1,1 +1,151 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+markdown {
+  ul:not(.custom-toc ul) {
+    @apply space-y-4 my-6 list-none;
+    padding-left: 1.5rem;
+
+    li {
+      @apply relative text-gray-700 dark:text-slate-300 leading-relaxed;
+      display: block; // Forzamos block para que no sea grid
+
+      &::before {
+        content: "";
+        @apply absolute -left-6 top-2.5 w-2 h-2 rounded-full bg-blue-500;
+      }
+    }
+  }
+
+  .custom-toc {
+    @apply w-full my-4;
+
+    ul {
+      @apply list-none p-0 m-0 w-full flex flex-col; // flex-col asegura una fila por ítem
+
+      li {
+        display: grid !important;
+        grid-template-columns: 1fr auto; // El texto ocupa todo el espacio, el número solo el suyo
+        @apply w-full mb-2 text-lg items-center border-b border-gray-100 pb-1;
+
+        // Estilo para los números (strong)
+        strong {
+          @apply font-bold text-blue-600 pl-4 justify-self-end;
+        }
+
+        // Manejo de sub-listas (Indentación)
+        ul {
+          grid-column: 1 / span 2; // Ocupa ambas columnas
+          @apply ml-6 mt-1 border-none; // Quitamos el borde inferior en sub-ítems
+          
+          li {
+            @apply text-base text-gray-600 mb-1 border-none;
+            grid-template-columns: 1fr auto;
+          }
+          
+          // Tercer nivel de indentación
+          ul { @apply ml-6; }
+        }
+      }
+    }
+  }
+
+  div.text-center {
+    h1, h2, h3, h4, h5, p {
+      text-align: center;
+      @apply w-full;
+    }
+  }
+  
+  div.text-right {
+    h1, h2, h3, h4, h5, p {
+      text-align: right;
+      @apply w-full;
+    }
+  }
+
+  .italic-block {
+    @apply italic text-gray-600 dark:text-slate-400;
+    font-family: 'Georgia', serif;
+  }
+
+  .custom-tag {
+    @apply bg-gray-100 dark:bg-slate-700 text-gray-800 dark:text-blue-300 px-2 py-0.5 rounded-md font-mono text-sm inline-block mx-1 border border-gray-200 dark:border-slate-600;
+    vertical-align: middle;
+  }
+
+  .dotted-box {
+    @apply my-6 p-6 border-2 border-dotted border-gray-300 dark:border-slate-600 rounded-xl text-center;
+    // Esto asegura que todo lo que esté dentro se centre automáticamente
+    p {
+      @apply m-0 leading-relaxed text-gray-600 dark:text-slate-400;
+    }
+  }
+}
+
+// Cuando el modo oscuro está activo
+.dark {
+  body {
+    background-color: #0f172a; // Fondo azul muy oscuro (slate-900)
+  }
+
+  // Las hojas blancas del libro ahora serán gris oscuro
+  .w-\[794px\] {
+    background-color: #1e293b; // slate-800
+    border-color: #334155;     // slate-700
+    color: #f1f5f9;            // slate-100
+  }
+
+  // Ajuste para el texto de ngx-markdown en modo oscuro
+  .prose {
+    @apply prose-invert; // Esto hace que el texto sea blanco automáticamente
+  }
+  
+  // Ajuste para tu caja personalizada :::box
+  .custom-box {
+    background-color: #334155; 
+    color: #e2e8f0;
+  }
+
+  markdown {
+    /* Estilo para la lista / Índice */
+    ul {
+      @apply space-y-3;
+
+      li {
+        /* Color de texto gris claro para que sea legible */
+        @apply text-slate-300 transition-colors duration-200;
+        
+        // El número de página en negrita resaltará en un color cian o azul claro
+        strong {
+          @apply text-blue-400;
+        }
+
+        // Efecto al pasar el mouse por una línea del índice
+        &:hover {
+          @apply text-white;
+          border-radius: 8px;
+        }
+
+        // Si volviste a poner los puntos suspensivos:
+        &::after {
+          @apply text-slate-700; // Puntos oscuros para que no distraigan
+          opacity: 0.5;
+        }
+      }
+
+      /* Estilo para las sub-listas (anidadas) */
+      ul {
+        @apply border-l border-slate-700 ml-6 pl-4;
+        
+        li {
+          @apply text-slate-400 text-base;
+          &:hover {
+            @apply text-blue-300;
+          }
+        }
+      }
+    }
+  }
+}
