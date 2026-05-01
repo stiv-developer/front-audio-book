@@ -265,22 +265,11 @@ Diagrama UML de extensión de una única clase en comparación con la
 implementación de múltiples interfaces al mismo tiempo.
 :::
 
-En la mayoría de los lenguajes de programación una subclase
-puede extender una única superclase. Por otro lado, cualquier
-clase puede implementar varias interfaces al mismo tiempo.
-Pero, como expliqué antes, si una superclase implementa una
-interfaz, todas sus subclases deben implementarla también.
+En la mayoría de los lenguajes de programación una subclase puede extender una única superclase. Por otro lado, cualquier clase puede implementar varias interfaces al mismo tiempo. Pero, como expliqué antes, si una superclase implementa una interfaz, todas sus subclases deben implementarla también.
 
 ### Polimorfismo
 
-Veamos algunos ejemplos con animales. La mayoría de los
-:::tag Animal ::: puede emitir sonidos. Podemos anticipar que todas
-las subclases necesitarán sobrescribir el método base
-:::tag emitirSonido ::: para que cada subclase pueda emitir el soni
-do correcto; por lo tanto, podemos declararlo *abstracto* directa
-mente. Esto nos permite omitir cualquier implementación por
-defecto del método en la superclase, pero fuerza a todas las
-subclases a establecer las suyas propias.
+Veamos algunos ejemplos con animales. La mayoría de los :::tag Animal ::: puede emitir sonidos. Podemos anticipar que todas las subclases necesitarán sobrescribir el método base :::tag emitirSonido ::: para que cada subclase pueda emitir el sonido correcto; por lo tanto, podemos declararlo *abstracto* directamente. Esto nos permite omitir cualquier implementación por defecto del método en la superclase, pero fuerza a todas las subclases a establecer las suyas propias.
 
 ##pag:15
 :::center
@@ -289,38 +278,21 @@ subclases a establecer las suyas propias.
 Estos son comentarios UML. Normalmente, explican detalles de implementación de las clases o métodos dados.
 :::
 
-Imagina que ponemos varios gatos y perros dentro de una
-gran bolsa. Después, con los ojos tapados, vamos sacando los
-animales de la bolsa, de uno en uno. Al sacar un animal, no
-sabemos con seguridad lo que es. Pero si lo abrazamos lo suficiente, el animal emitirá un sonido específico de alegría, dependiendo de su clase concreta.
+Imagina que ponemos varios gatos y perros dentro de una gran bolsa. Después, con los ojos tapados, vamos sacando los animales de la bolsa, de uno en uno. Al sacar un animal, no sabemos con seguridad lo que es. Pero si lo abrazamos lo suficiente, el animal emitirá un sonido específico de alegría, dependiendo de su clase concreta.
 
 ##pag:16
 
-El programa no conoce el tipo concreto del objeto contenido
-dentro de la variable
-a , pero, gracias al mecanismo especial
-llamado polimorfismo, el programa puede rastrear la subclase
-del objeto cuyo método está siendo ejecutado, y ejecutar el co
-mportamiento adecuado.
+El programa no conoce el tipo concreto del objeto contenido dentro de la variable a, pero, gracias al mecanismo especial llamado polimorfismo, el programa puede rastrear la subclase del objeto cuyo método está siendo ejecutado, y ejecutar el comportamiento adecuado.
 
-El *polimorfismo* es la capacidad que tiene un programa de de
-tectar la verdadera clase de un objeto e invocar su impleme
-ntación, incluso aunque su tipo real sea desconocido en el
-contexto actual.
+El *polimorfismo* es la capacidad que tiene un programa de detectar la verdadera clase de un objeto e invocar su implementación, incluso aunque su tipo real sea desconocido en el contexto actual.
 
-También puedes pensar en el polimorfismo como la capaci
-dad de un objeto para “fingir” ser otra cosa, normalmente una
-clase que extiende o una interfaz que implementa. En nuest
-ro ejemplo, los perros y gatos de la bolsa fingen ser animales
-genéricos.
+También puedes pensar en el polimorfismo como la capacidad de un objeto para “fingir” ser otra cosa, normalmente una clase que extiende o una interfaz que implementa. En nuestro ejemplo, los perros y gatos de la bolsa fingen ser animales genéricos.
 
 ##pag:17
 
 ## Relaciones entre objetos
 
-Además de la *herencia* y la *implementación*, que ya vimos, hay
-otros tipos de relaciones entre objetos de las que aún no
-hemos hablado.
+Además de la *herencia* y la *implementación*, que ya vimos, hay otros tipos de relaciones entre objetos de las que aún no hemos hablado.
 
 :::center
 
@@ -336,11 +308,7 @@ objetos mediante llamadas al constructor, etc. Puedes hacer
 más débil una dependencia haciendo que tu código dependa
 de interfaces o clases abstractas en lugar de clases concretas.
 
-Normalmente, un diagrama UML no muestra todas las depe
-ndencias; hay demasiadas en cualquier código real. En lugar
-de contaminar el diagrama con dependencias, debes ser muy
-selectivo y mostrar únicamente aquellas que son importantes
-para lo que sea que estás comunicando.
+Normalmente, un diagrama UML no muestra todas las dependencias; hay demasiadas en cualquier código real. En lugar de contaminar el diagrama con dependencias, debes ser muy selectivo y mostrar únicamente aquellas que son importantes para lo que sea que estás comunicando.
 
 ##pag:17
 
