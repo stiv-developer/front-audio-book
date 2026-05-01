@@ -16,10 +16,13 @@ export class App {
   private http = inject(HttpClient);
   
   pages = signal<string[]>([]);
-  currentIdx = 0;
+  // currentIdx = 0;
+  currentIdx = signal<number>(0);
   playbackRate = 1;
-  isReading = false;
-  modoContinuo = false;
+  // isReading = false;
+  isReading = signal<boolean>(false);
+  // modoContinuo = false;
+  modoContinuo = signal<boolean>(false);
   private synth = window.speechSynthesis;
 
   readonly IconPlay = LucidePlay;
@@ -88,26 +91,26 @@ export class App {
     utterance.rate = this.playbackRate;
 
     utterance.onstart = () => {
-      this.isReading = true;
+      this.isReading.set(true);
     };
 
     // Finaliza la lectura del texto
     utterance.onend = () => {
 
-      if (this.modoContinuo && this.currentIdx < this.pages().length - 1) {
+      if (this.modoContinuo() && this.currentIdx() < this.pages().length - 1) {
         setTimeout(() => {
           this.cambiarPagina(1);
-          this.leerHoja(this.pages()[this.currentIdx]);
+          this.leerHoja(this.pages()[this.currentIdx()]);
         }, 1000);
       } else {
-        this.isReading = false;
-        this.modoContinuo = false;
+        this.isReading.set(false);
+        this.modoContinuo.set(false);
       }
 
     };
 
     utterance.onerror = () => {
-      this.isReading = false;
+      this.isReading.set(false);
     }
 
     this.synth.speak(utterance);
@@ -115,8 +118,8 @@ export class App {
 
   detenerLectura() {
     this.synth.cancel();
-    this.isReading = false;
-    this.modoContinuo = false;
+    this.isReading.set(false);
+    this.modoContinuo.set(false);
   }
 
   prepararTextoParaLectura(texto: string): string {
@@ -137,13 +140,12 @@ export class App {
   }
 
   cambiarPagina(delta: number) {
-    
-    const nuevoIdx = this.currentIdx + delta;
+    const nuevoIdx = this.currentIdx() + delta;
 
     if (nuevoIdx >= 0 && nuevoIdx < this.pages().length) {
-      this.currentIdx = nuevoIdx;
+      this.currentIdx.set(nuevoIdx);
 
-      const id = `hoja-${this.currentIdx}`;
+      const id = `hoja-${nuevoIdx}`;
       const elemento = document.getElementById(id);
 
       if(elemento) {
@@ -156,21 +158,21 @@ export class App {
   }
 
   toggleLecturaHoja(index: number) {
-    if (this.isReading && this.currentIdx === index) {
+    if (this.isReading() && this.currentIdx() === index) {
       this.detenerLectura();
     } else {
-      this.modoContinuo = false;
-      this.currentIdx = index;
+      this.modoContinuo.set(false);
+      this.currentIdx.set(index)
       this.leerHoja(this.pages()[index]);
     }
   }
 
   reproducirGlobal() {
-    if (this.isReading) {
+    if (this.isReading()) {
       this.detenerLectura();
     } else {
-      this.modoContinuo = true;
-      this.leerHoja(this.pages()[this.currentIdx]);
+      this.modoContinuo.set(true);
+      this.leerHoja(this.pages()[this.currentIdx()]);
     }
   }
 }

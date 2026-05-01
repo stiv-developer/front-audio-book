@@ -16,7 +16,7 @@
 
 <div class="min-h-screen bg-gray-200 py-6 md:py-12 flex flex-col items-center gap-6 md:gap-10" >
   @for (pageContent of pages(); track $index) {
-    <div [id]="'hoja-' + $index" [class.ring-2]="currentIdx === $index && isReading" 
+    <div [id]="'hoja-' + $index" [class.ring-2]="currentIdx() === $index && isReading" 
     class="relative group w-full flex justify-center px-4 md:px-0" >
 
       <div class="w-full max-w-[794px] bg-white dark:bg-[#0f172a] shadow-xl border border-gray-300 
@@ -55,7 +55,7 @@
     
     <div class="flex items-center gap-2">
       <span class="text-sm font-mono text-gray-500 dark:text-slate-400 min-w-[80px] text-center">
-        Pág. {{ currentIdx + 1 }} / {{ pages().length }}
+        Pág. {{ currentIdx() + 1 }} / {{ pages().length }}
       </span>
     </div>
 
@@ -65,7 +65,8 @@
         <svg [lucideIcon]="IconPrev" class="w-6 h-6 text-blue-600"></svg>
       </button>
       <button (click)="reproducirGlobal()" class="flex items-center gap-2 p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-md transition-all active:scale-95">
-        @if (isReading && modoContinuo) {
+        @if (isReading() && modoContinuo()) {
+        <!-- @if (isReading()) { -->
           <svg [lucideIcon]="IconPause" class="w-6 h-6"></svg>
         } @else {
           <svg [lucideIcon]="IconPlay" class="w-6 h-6"></svg>
