@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterOutlet } from '@angular/router';
+import { LucideDynamicIcon, LucidePause, LucidePlay, LucideRotateCw, LucideSkipBack, LucideSkipForward } from '@lucide/angular';
 import { MarkdownModule } from "ngx-markdown";
 
 @Component({
   selector: 'app-root',
-  imports: [MarkdownModule, CommonModule, FormsModule],
+  imports: [MarkdownModule, CommonModule, FormsModule, LucideDynamicIcon],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
@@ -21,6 +21,12 @@ export class App {
   isReading = false;
   modoContinuo = false;
   private synth = window.speechSynthesis;
+
+  readonly IconPlay = LucidePlay;
+  readonly IconPause = LucidePause;
+  readonly IconNext = LucideSkipForward;
+  readonly IconPrev = LucideSkipBack;
+  readonly IconRotate = LucideRotateCw;
 
   constructor() {
     this.http.get('ERP.md', { responseType: 'text' }).subscribe(data => {
