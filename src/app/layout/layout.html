@@ -1,0 +1,13 @@
+<div class="flex h-screen bg-gray-100 overflow-hidden">
+    <app-sidebar 
+        [isSidebarOpen]="isSidebarOpen()"
+        (toggleSidebarEvent)="toggleSidebar()" />
+
+    <div class="flex-1 flex flex-col overflow-hidden">
+        <app-header (toggleSidebarEvent)="toggleSidebar()"/>
+
+        <main class="flex-1 overflow-hidden overflow-y-auto">
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>
