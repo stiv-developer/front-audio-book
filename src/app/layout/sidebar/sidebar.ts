@@ -20,6 +20,7 @@ export class Sidebar {
   }
 
   navegar(numPagina: number) {
+    console.log("numPagina: ", numPagina);
     this.libroService.irPagina(numPagina);
 
     if(window.innerWidth < 1024) {

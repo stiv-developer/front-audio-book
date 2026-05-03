@@ -2,27 +2,27 @@
 # Índice de contenido
 
 :::indice
-* Índice de contenido **4**
-* Cómo leer este libro **6**
-* Fundamentos de la POO **7**
-  * Conceptos básicos de POO **8**
-  * Los pilares de la POO **13**
-  * Relaciones entre objetos **21**
-* Introducción a los patrones de diseño **27**
-  * ¿Qué es un patrón de diseño? **28**
-  * ¿Por qué debería aprender sobre patrones? **21**
-* Principios de diseño de software **34**
-  * Características del buen diseño **35**
-  * Principios del diseño **39**
-    * Encapsula lo que varía **40**
-    * Programa a una intefaz, no a una implementación **45**
-    * Favorece la composición sobre la herencia **50**
-  * Principios SOLID **54**
-    * S:Principio de responsabilidad única **55**
-    * O:Principio de abierto/cerrado **57**
-    * L:Principio de sustitución de Liskov **61**
-    * I:Principio de segregación de la intefaz **68**    
-    * D:Principio de inversiín de la dependecia **71**
+* Índice de contenido **1**
+* Cómo leer este libro **3**
+* Fundamentos de la POO **4**
+  * Conceptos básicos de POO **4**
+  * Los pilares de la POO **9**
+  * Relaciones entre objetos **17**
+* Introducción a los patrones de diseño **23**
+  * ¿Qué es un patrón de diseño? **24**
+  * ¿Por qué debería aprender sobre patrones? **29**
+* Principios de diseño de software **30**
+  * Características del buen diseño **31**
+  * Principios del diseño **34**
+    * Encapsula lo que varía **35**
+    * Programa a una intefaz, no a una implementación **40**
+    * Favorece la composición sobre la herencia **45**
+  * Principios SOLID **49**
+    * S:Principio de responsabilidad única **50**
+    * O:Principio de abierto/cerrado **52**
+    * L:Principio de sustitución de Liskov **56**
+    * I:Principio de segregación de la intefaz **63**    
+    * D:Principio de inversiín de la dependecia **66**
 :::
 
 ##pag:2
@@ -57,7 +57,7 @@
 :::
 
 ##pag:3
-## Como leer este libro
+## Cómo leer este libro
 
 Este libro contiene las descripciones de 22 patrones de diseño clásicos formulados por la “banda de los cuatro” (o simplemente GoF, por sus siglas en inglés) en 1994.
 

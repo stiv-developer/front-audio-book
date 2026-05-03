@@ -20,9 +20,15 @@ export class LibroService {
   }
 
   irPagina(num: number) {
-    this.paginaActual.set(num);
+    const indiceReal = num - 1;
 
-    const elemento = document.getElementById(`hoja-${num}`);
-    elemento?.scrollIntoView({ behavior: 'smooth', block: 'start'})
+    this.paginaActual.set(indiceReal);
+    
+    const elemento = document.getElementById(`hoja-${indiceReal}`);
+    if (elemento) {
+      elemento?.scrollIntoView({ behavior: 'smooth', block: 'start'})
+    } else {
+      console.warn(`No se encontro el elemento: hoja-${indiceReal}`);
+    }
   }
 }

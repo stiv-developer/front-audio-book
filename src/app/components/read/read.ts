@@ -37,7 +37,7 @@ export class Read {
 
   constructor() {
     
-    this._http.get('ERP.md', { responseType: 'text' }).subscribe(data => {
+    this._http.get('el-arte-de-gestionar-conflictos-en-la-vida-y-la-empresa.md', { responseType: 'text' }).subscribe(data => {
       
       const miSeparator = '##pag';
       
@@ -61,6 +61,10 @@ export class Read {
 
         page = page.replace(/:::dotted-box([\s\S]*?):::/g, (match, contenido) => {
           return `<div class="dotted-box">\n\n${contenido}\n\n</div>`
+        });
+
+        page = page.replace(/:::solid-box([\s\S]*?):::/g, (match, contenido) => {
+          return `<div class="solid-box">\n\n${contenido}\n\n</div>`
         })
 
         // Centrado
@@ -153,11 +157,11 @@ export class Read {
       }
     } else {
       this.detenerLectura();
-      
     }
   }
 
   toggleLecturaHoja(index: number) {
+    console.log("toggleLecturaHoja")
     if (this.isReading() && this.currentIdx() === index) {
       this.detenerLectura();
     } else {
@@ -177,7 +181,10 @@ export class Read {
   }
 
   irAPaginaPorTitulo(numPagina: number) {
-    this.currentIdx.set(numPagina);
+    console.log("numPagina: ", numPagina)
+    const indiceArray = numPagina - 1;
+
+    this.currentIdx.set(indiceArray);
 
     const id = `hoja-${numPagina}`;
     const elemento = document.getElementById(id);

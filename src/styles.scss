@@ -9,7 +9,7 @@ markdown {
 
     li {
       @apply relative text-gray-700 dark:text-slate-300 leading-relaxed;
-      display: block; // Forzamos block para que no sea grid
+      display: block; 
 
       &::before {
         content: "";
@@ -18,38 +18,56 @@ markdown {
     }
   }
 
-  .custom-toc {
-    @apply w-full my-4;
+ .custom-toc {
+  @apply w-full my-4;
 
-    ul {
-      @apply list-none p-0 m-0 w-full flex flex-col; // flex-col asegura una fila por ítem
+  // Aplicamos a todas las listas dentro del índice
+  ul {
+    @apply list-none p-0 m-0 w-full flex flex-col;
 
-      li {
-        display: grid !important;
-        grid-template-columns: 1fr auto; // El texto ocupa todo el espacio, el número solo el suyo
-        @apply w-full mb-2 text-lg items-center border-b border-gray-100 pb-1;
+    li {
+      // 1. Forzamos el Grid en cada item
+      display: grid !important;
+      grid-template-columns: 1fr auto !important; 
+      column-gap: 1rem;
+      align-items: baseline;
+      @apply w-full mb-2 text-lg text-gray-800 border-b border-gray-100 pb-1;
 
-        // Estilo para los números (strong)
-        strong {
-          @apply font-bold text-blue-600 pl-4 justify-self-end;
-        }
+      // 2. TRUCO CLAVE: Si el markdown genera un <p>, lo convertimos en sub-grid
+      // o hacemos que sus hijos (texto y strong) se comporten como celdas.
+      p { 
+        display: contents; // Esto hace que el <p> "desaparezca" para el Grid
+      }
 
-        // Manejo de sub-listas (Indentación)
-        ul {
-          grid-column: 1 / span 2; // Ocupa ambas columnas
-          @apply ml-6 mt-1 border-none; // Quitamos el borde inferior en sub-ítems
+      // 3. El número de página (strong)
+      strong {
+        @apply font-bold text-blue-600;
+        grid-column: 2 !important; // Lo obligamos a ir a la derecha
+        justify-self: end;
+        white-space: nowrap;
+      }
+
+      // 4. Manejo de Sub-listas
+      ul {
+        grid-column: 1 / span 2; // Ocupa todo el ancho debajo del padre
+        @apply ml-8 mt-1 border-none w-full flex flex-col;
+
+        li {
+          display: grid !important;
+          grid-template-columns: 1fr auto !important;
+          @apply text-base text-gray-600 mb-1 border-none pb-0;
           
-          li {
-            @apply text-base text-gray-600 mb-1 border-none;
-            grid-template-columns: 1fr auto;
+          p { display: contents; } // También para sub-niveles
+
+          strong {
+            @apply text-blue-500 font-semibold;
+            grid-column: 2 !important;
           }
-          
-          // Tercer nivel de indentación
-          ul { @apply ml-6; }
         }
       }
     }
   }
+}
 
   div.text-center {
     h1, h2, h3, h4, h5, p {
@@ -80,6 +98,13 @@ markdown {
     // Esto asegura que todo lo que esté dentro se centre automáticamente
     p {
       @apply m-0 leading-relaxed text-gray-600 dark:text-slate-400;
+    }
+  }
+
+  .solid-box {
+    @apply p-4 border-2 border-gray-700 dark:border-slate-600 rounded-md;
+    p {
+      @apply m-0 leading-relaxed text-gray-600 dark:text-slate-400
     }
   }
 }
