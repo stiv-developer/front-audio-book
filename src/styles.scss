@@ -94,15 +94,22 @@ markdown {
   }
 
   .dotted-box {
-    @apply my-6 p-6 border-2 border-dotted border-gray-300 dark:border-slate-600 rounded-xl text-center;
+    @apply mt-2 p-4 border-2 border-dotted border-gray-300 dark:border-slate-600 rounded-xl text-center;
     // Esto asegura que todo lo que esté dentro se centre automáticamente
     p {
       @apply m-0 leading-relaxed text-gray-600 dark:text-slate-400;
     }
   }
 
+  .dotted-box-text-start {
+    @apply mt-2 p-4 border-2 border-dotted border-gray-700 dark:border-slate-600 rounded-md text-start;
+    p {
+      @apply m-0 leading-relaxed text-gray-600 dark:text-slate-400
+    }
+  }
+
   .solid-box {
-    @apply p-4 border-2 border-gray-700 dark:border-slate-600 rounded-md;
+    @apply mt-2 p-4 border-2 border-gray-700 dark:border-slate-600 rounded-md;
     p {
       @apply m-0 leading-relaxed text-gray-600 dark:text-slate-400
     }

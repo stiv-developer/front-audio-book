@@ -129,12 +129,10 @@ cualquier otra.
 
 # El conflicto: conceptos básicos
 
-:::dotted-box
 La única diferencia entre escollos y peldaños es la manera en que los
 usamos.
 
-**ADRIANA DOYLE**
-:::
+*ADRIANA DOYLE*
 
 #### La inevitabilidad del conflicto
 
@@ -175,7 +173,7 @@ que ese problema aparentemente real es en realidad de índole artificial.
 El profesor Aharon Kfir, padre de Amir, que participó en la creación de la
 administración pública de Israel, nos contó la siguiente historia:
 
-:::dotted-box
+:::dotted-box-text-start
 En 1870, durante la guerra francoprusiana, un soldado francés fue hecho prisionero en Alemania.
 Sobrevivir al cautiverio era muy difícil, pero el joven estaba seguro de que su bella mujer le esperaba en
 casa. Esto le infundió las fuerzas que necesitaba para aguantar y sobrevivir. Durante su estancia en el
@@ -212,7 +210,7 @@ trágico que la historia anterior:
 
 ##pag:8
 
-:::dotted-box
+:::dotted-box-text-start
 Dos cocineros se pelean por el último limón que queda en la despensa. Se gritan el uno al otro blandiendo
 ridículamente sus cuchillos. El dueño del restaurante entra corriendo y, temeroso de que pueda correr la
 sangre y su cocina se convierta en una pesadilla, corta el limón en dos y le da una mitad a cada cocinero.
@@ -261,7 +259,7 @@ de manera irracional. Al estallar o al gritar solo empeoramos el conflicto y gen
 más problemas. Si continuamos huyendo, al final perderemos el control y diremos
 algo que luego lamentaremos.
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: Durante mi matrimonio con mi segunda exesposa, nuestras respectivas hijas se enfrentaron en
 un conflicto que se intensificó de tal manera que acabó involucrando a toda la familia. Las dos tenían
 caracteres opuestos y se peleaban constantemente. Mi esposa de entonces, como es natural, sentía la
@@ -297,11 +295,12 @@ lo acabes tratando solo en su superficie o que digas algo que luego lamentarás.
 Aplazar la conversación está bien, siempre y cuando se retome después y mientras el
 tema sigue fresco y sea pertinente para ambas partes.
 
-#### Claves
-
+:::solid-box
+**Claves**
 * Un conflicto sin resolver se mantiene en ebullición bajo la superficie y termina complicándose.
 * El temor a estallar con palabras subidas de tono hace que muchas personas lo eviten.
 * Cuando rehúyes el problema y eliges esquivarlo por completo, pierdes la oportunidad de crecer como persona y de desarrollar tus relaciones.
+:::
 
 #### La fuerza
 
@@ -313,7 +312,7 @@ manifestarse de forma verbal o psicológica, o con el uso del poder. A veces par
 forma más fácil y rápida de resolver un problema pero, a la larga, daña las relaciones
 y puede conllevar resultados desastrosos.
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: Cuando dirigía una empresa de tejidos en Montreal, los trabajadores del sindicato estaban
 descontentos con las condiciones laborales y los salarios, e intentaron imponer sus reivindicaciones bajo la
 amenaza de una huelga. Yo no podía permitirme aceptar sus quejas porque sabía que los costes se
@@ -331,7 +330,7 @@ resultó ganadora.
 
 ##pag:11
 
-:::dotted-box
+:::dotted-box-text-start
 comunicó las condiciones mediante una carta de intenciones en la que se indicaba que, tras un primer año
 de prueba, la remuneración se basaría en un porcentaje del trabajo facturado. Después de un año de
 excelente desempeño profesional, llegó el momento de dar cumplimiento al acuerdo, pero la empresa
@@ -345,11 +344,13 @@ cordial. A partir de entonces fue muy cauto con su empleador y las negociaciones
 salario se alargaron y se enturbiaron debido a la pérdida de confianza.
 :::
 
-#### Claves
 
+:::solid-box
+**Claves**
 * La idea de que en un conflicto debe haber ganadores y perdedores puede generar enemistad, amargura e incluso resentimiento en la parte perdedora.
 * El mundo experimenta cambios continuos y por ello también se transforman las dinámicas de poder. En una resolución impuesta a la fuerza siempre habrá un perdedor y, este, al haber sido presionado para aceptar una conclusión con la que no estaba de acuerdo, puede que haga resurgir el conflicto más adelante.
 * Muchas personas consideran que el uso de la fuerza no es ético.
+:::
 
 #### La cesión
 
@@ -379,7 +380,7 @@ siquiera un buen amigo— entienda lo que hemos sacrificado al ceder. Y aunque l
 comprenda, no es seguro que lo recuerde en un futuro ni que cumpla unas
 expectativas que no has fijado.
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: En una ocasión, cuando trabajaba para una inmobiliaria, era muy importante firmar un contrato
 con un arrendatario para así poder urbanizar un terreno destinado a la construcción de un centro comercial.
 El arrendatario, sin embargo, alargó la negociación hasta el último día en que había que cerrar la operación
@@ -390,10 +391,11 @@ relaciones y perdimos la confianza en él. Cuando necesitamos un arrendatario de
 estrategia y negociamos también con sus competidores.
 :::
 
-#### Claves
-
+:::solid-box
+**Claves**
 * Al igual que sucede en un enfrentamiento, ceder produce ganadores y perdedores. Al sacrificar tus necesidades y deseos tienes la percepción de que son menos importantes que los de la otra persona, y no lo son.
 * Si cedes, puedes esperar a que te lo reconozcan y te compensen tu generosidad en el futuro, aunque también puedes llevarte una decepción, ya que no todo el mundo se rige por estas normas.
+:::
 
 #### Mitad y mitad
 
@@ -417,7 +419,7 @@ final, y aquí entran en juego las dinámicas enunciadas en el apartado dedicado
 enfrentamiento. Una vez alterada la dinámica de poder, ¿quién puede asegurar que el
 acuerdo no será reevaluado?
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR: Cuando mis hijos eran pequeños se peleaban constantemente por la televisión. La mayor quería
 ver programas diferentes a los de su hermano: a ella le gustaba la serie Friends y a él, Bob Esponja. Sus
 peleas llegaron a tal extremo que mi mujer y yo tuvimos que intervenir. Sugerimos que uno fuese a nuestra
@@ -437,13 +439,14 @@ los niños maduraron, empezaron a disfrutar de los mismos programas y a ser más
 compartir el tiempo delante de la tele. Y el hecho de poder ver la televisión en el ordenador también ayudó.
 :::
 
-#### Claves
+:::solid-box
+**Claves**
 
 Por rápido y conveniente que sea, el «mitad y mitad» puede conducir a
 dos situaciones:
-
 * ambas partes quedan insatisfechas;
 * ambas partes intentan imponerse al otro para cambiar el equilibrio delpoder.
+:::
 
 ##pag:14
 
@@ -463,7 +466,7 @@ parte trabaje por su cuenta para lograr sus propios fines, colaboran juntas para
 conseguir el mejor resultado para ambas. La co-creación ofrece soluciones eficaces a
 largo plazo y mantiene, o ayuda a construir, unas relaciones sanas.
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR: Me contrataron como consultor en una empresa muy grande con graves dificultades financieras. El
 director ejecutivo creía que la solución más sencilla era despedir al 10 % de la plantilla. Esto hubiera sido
 rápido y aparentemente sencillo de implementar por parte de los directivos, pero hundiría la moral de la
@@ -489,12 +492,12 @@ optado por las estrategias de la huida, el enfrentamiento o el «mitad y mitad»
 :::
 
 ##pag:15
-
-#### Claves
+:::solid-box
+**Claves**
 
 * Cuando se emplea el método de co-creación para resolver conflictos, todas las partes quedan satisfechas en sus necesidades y deseos. No hay perdedores: todos ganan.
 * La resolución es a largo plazo, pues nadie se sentirá olvidado o desatendido.
-
+:::
 A continuación, exponemos tres ejemplos de soluciones co-creadas a problemas
 cotidianos.
 
@@ -666,7 +669,7 @@ ofrece.
 
 ##pag:24
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: Cuando mi empresa canadiense quiso asociarse con una compañía japonesa, me di cuenta de lo
 mucho que influyen las diferencias culturales en la manera de hacer negocios. Mientras que en
 Norteamérica las negociaciones son rápidas y eficientes, basadas en datos y cifras y se intenta no perder el
@@ -720,7 +723,7 @@ hace sentir? y ¿Qué es lo importante para mí?. Responde sin criticar, comunic
 de forma constructiva. La importancia de hacerlo de esa manera queda patente en el
 siguiente ejemplo:
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: Mi hijo Alex es un artista con muchísimo talento. Ya desde muy pequeño pintaba y creaba.
 Hace unos años, Alex alcanzó la edad de ir a la universidad y empezó a pensar en la carrera que iba a
 estudiar. Quería licenciarse en Bellas Artes, pero mi mujer y yo pensábamos que esos estudios no le
@@ -734,7 +737,7 @@ Imaginemos ahora cómo hubiera abordado Stephen este conflicto con su hijo de
 haber recurrido a la comunicación destructiva. Hubiera podido decirle algo parecido a
 esto:
 
-:::dotted-box
+:::dotted-box-text-start
 «Alex, ¿por qué has dejado los estudios sin consultarnos? ¿Cómo puedes ser tan irresponsable e inmaduro? ¿Estás dispuesto a echarlo todo a perder después de lo que hemos hecho por ti? ¡Parece que no te importe tu futuro! Ya sé que crees que la vida es solo jugar y divertirse, pero debes ser más consciente y ver las cosas como son. Me parece que nos lo pensaremos dos veces antes de pagarte la matrícula en otra universidad».
 :::
 
@@ -757,7 +760,7 @@ En realidad, después de haber aprendido de conflictos destructivos previos,
 Stephen empleó una comunicación constructiva al hablar con su hijo y esto fue lo que
 le dijo:
 
-:::dotted-box
+:::dotted-box-text-start
 Alex, me gustaría hablar contigo porque te quiero y me inquieto por ti. Me preocupa que tu rendimiento en la universidad pueda traerte problemas en el futuro y no quiero que te ocurra nada malo. Quiero que seas feliz en tu vida y que trabajes en algo que te llene. Me sería de ayuda saber qué piensas y sientes ¿Puedes explicármelo?
 :::
 
@@ -809,7 +812,7 @@ se verán satisfechas es ser abierto y honesto con la otra persona. Si no comuni
 qué necesitas, ¿cómo pretendes que te comprendan? Al igual que tú no tienes
 capacidad de adivinación, la otra persona tampoco.
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR: Estuve de vacaciones en Puerto Rico con mi esposa, alojados en una preciosa casa junto al mar, y
 pasamos los primeros días en la playa tomando el sol y descansando, pero al final mi mujer se hartó. Ella
 prefiere las vacaciones en grandes ciudades, pasear, ir de compras y disfrutar de la animación de la vida
@@ -841,7 +844,7 @@ siente. En el apéndice del libro hallarás una plantilla de trabajo donde anota
 piensas acerca de un conflicto antes de comunicárselo a la otra persona.
 
 :::solid-box
-#### Claves
+**Claves**
 * Los esquemas de interpretación personales determinan cómo uno ve un conflicto o una situación en particular.
 * La existencia de este encuadre nos enseña que, en la comunicación, no hay que buscar una resolución que tilde a uno de correcto y a otro de equivocado; debe ser un acuerdo que tome en cuenta todas las perspectivas relevantes.
 * La comunicación constructiva emplea frases que empiezan en primera persona, sin criticar o avergonzar a la otra persona.
@@ -940,7 +943,7 @@ un párrafo, dando tiempo a la otra persona a asimilar la información antes de
 continuar. Así, el intercambio será más fluido y natural, y facilitará una experiencia
 positiva al compartir, escuchar y reflejarse a lo largo de este paso.
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: Cuando trabajaba en una inmobiliaria fui a visitar a una clienta potencial a la que queríamos
 comprarle un terreno. Al entrar en su oficina, esta tenía los brazos cruzados y el ceño fruncido. Con un tono
 agresivo, me dijo que teníamos que comprar el terreno de inmediato, sin el plazo de diligencia debida que
@@ -1005,7 +1008,7 @@ incluso las odiemos.
 
 ##pag:37
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR: Una vez moderé una reunión para tratar el conflicto entre palestinos e israelíes. En un momento
 dado, un palestino contó que su madre aún guardaba la llave de la puerta de la casa que tuvo que abandonar
 en 1948, durante la guerra de la independencia israelí. Contó que la mujer aún soñaba con volver a vivir
@@ -1041,7 +1044,7 @@ ella, y la validación nos ayuda a sentir que nuestra reacción es normal.
 
 ##pag:38
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: Hace poco me paró un policía por no detener completamente mi coche en una señal de stop y
 por no poner el intermitente antes de girar. Una vez estacionado en el arcén, apagué el motor y puse las
 manos en el volante para que viera que le respetaba y que no representaba ningún peligro. Cuando el policía
@@ -1074,8 +1077,7 @@ respeto, por lo tanto, atemperar los problemas supone un obstáculo para disfrut
 una buena relación.
 
 :::solid-box
-#### Claves
-
+**Claves**
 * Hay que escuchar activamente para poder reflejar como un espejo. Presta atención a lo que te dice la otra persona, a su lenguaje corporal y al tono que emplea.
 * Reflejar como un espejo quiere decir parafrasear, capturar la esencia en su nivel más puro, y no repetir lo dicho palabra por palabra.
 * Reflejar requiere empatía. Deja a un lado el ego y ponte en el lugar de la otra persona, se notará en el tono respetuoso y en el lenguaje corporal que emane.
@@ -1190,7 +1192,7 @@ infección se mantenga y quizá llegue a causar daños irreversibles en el oído
 averiguará todo lo posible sobre los síntomas y las posibles causas de ello antes de
 dar un diagnóstico y proponer un tratamiento.
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR: En los últimos seis meses de mi servicio militar trabajé en un programa para niños de familias con
 pocos recursos que habían crecido en circunstancias muy duras. Algunos tenían antecedentes penales y se
 habían visto implicados en enfrentamientos entre bandas. El gobierno quería darles la oportunidad de
@@ -1201,7 +1203,7 @@ desarrollamos un programa con un enfoque más holístico.
 
 ##pag:44
 
-:::dotted-box
+:::dotted-box-text-start
 En primer lugar, hicimos que un asistente social visitara a sus familias y eso nos ayudó a entender los problemas de pobreza, droga y violencia de aquellos chicos. Sabiendo esto, buscamos la manera de
 incrementar su autoestima y sus esperanzas en el futuro y decidimos enseñarles habilidades que les serían
 útiles en la vida laboral fuera del entorno militar, y que además les ayudarían a ver los aspectos positivos de
@@ -1255,7 +1257,7 @@ método Nonflict en la resolución de un conflicto interno). Si se trabajan prim
 problemas internos, se pueden simplificar o resolver muchas situaciones complejas.
 
 :::solid-box
-#### Claves
+**Claves**
 * No te quedes estancado ante acciones o personas específicas. Céntrate en la totalidad del problema.
 * Pregúntate: ¿por qué estas dos perspectivas válidas se contradicen?
 * Separa los síntomas de las verdaderas causas subyacentes del conflicto.
@@ -1321,7 +1323,7 @@ detiene a pensar en su hijo y, a pesar de saber que tiene problemas en la escuel
 recuerda que tiene un gran corazón y es amigo de todo el mundo, y puede utilizar esta
 energía positiva para ayudar a encontrar una resolución.
 
-:::dotted-box
+:::dotted-box-text-start
 
 AMIR: Trabajo con McElroy, una empresa estadounidense, líder mundial en el diseño, la fabricación y la
 comercialización de maquinaria para la construcción. Sus productos se venden casi exclusivamente a través
@@ -1369,7 +1371,7 @@ propios conflictos, confía siempre en que puedes resolverlos si observas el pan
 completo. En cualquier situación, siempre hay alguna cosa que todavía vale la pena
 apreciar.
 
-:::dotted-box
+:::dotted-box-text-start
 
 STEPHEN: Un miembro de la Organización de Jóvenes Presidentes se puso en contacto conmigo seis
 meses después de haber asistido a un curso de resolución de conflictos para explicarme lo ocurrido entre su
@@ -1386,8 +1388,7 @@ le recordasen por qué era muy importante trabajar con su madre en mejorar la re
 :::
 
 :::solid-box
-#### Claves
-
+**Claves**
 * «¿Qué nos funciona bien?» quiere decir «¿qué ayuda a que mejore nuestra relación y qué es lo que aprecio de la otra persona?». Es decir, hechos y sentimientos.
 * Quizá la única cosa que funciona es el hecho de que las dos partes quieren resolver el conflicto.
 * Hay que agradecer al universo la existencia del conflicto.
@@ -1444,7 +1445,7 @@ Por otro lado, en el caso de que el peor escenario contemplado sea desastroso, e
 crítica visión puede ser el catalizador necesario para buscar una solución utilizando el
 método Nonflict como guía.
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR: Yoki Gil es un buen amigo mío, propietario de la empresa Source Vagabond, líder en sistemas de
 hidratación, sandalias de montaña y accesorios de viaje. Sus competidores le robaban constantemente la
 propiedad intelectual y tenía que dedicar mucho dinero y tiempo a juicios por el mundo entero. Deseaba
@@ -1462,7 +1463,7 @@ constructiva, y enseguida se dio cuenta de que, aunque estaba viviendo emocional
 
 ##pag:54
 
-:::dotted-box
+:::dotted-box-text-start
 
 posible, aún había una salida. En lugar de perder el tiempo pleiteando con sus competidores, debía
 consagrar sus energías a la creación de los productos más innovadores e ir siempre un paso por delante de
@@ -1523,7 +1524,7 @@ un atentado terrorista, por citar algunos ejemplos. A su vez, los militares util
 juegos de guerra para simular los peores escenarios y ensayan ejercicios para
 prepararse ante una guerra química o ante ataques coordinados por tierra y aire.
 
-:::dotted-box
+:::dotted-box-text-start
 
 AMIR: Trabajé con una familia en la que existía un conflicto entre los padres y su hija adolescente.
 Cuando hablamos del futuro, ella afirmó:
@@ -1542,14 +1543,11 @@ cambios de estrategia o de estado mental.
 ##pag:56
 
 :::solid-box
-
-#### Claves
-
+**Claves**
 * El peor escenario es un reflejo personal de tus miedos más profundos.
 * Es la sombra que está detrás del verdadero conflicto subyacente: lo que estás intentando evitar.
 * Al exponer tus miedos, no solo los aclaras para ti mismo, sino que ofreces a la otra persona la oportunidad de entenderlos y de empatizar con ellos.
 * El peor escenario posible ayuda a actuar o a descartar ciertos pensamientos negativos.
-
 :::
 
 #### Ejercicios
@@ -1588,7 +1586,7 @@ tiempo, visualizar te permitirá entrenar la imaginación para alcanzar tus meta
 práctica penetra en el subconsciente y te guía con firmeza hacia el éxito. Tus
 propósitos crean una meta, que se traduce en concentración y resultados manifiestos.
 
-:::dotted-box
+:::dotted-box-text-start
 
 AMIR Y STEPHEN: A lo largo de la escritura de este libro, visualizamos el producto final en nuestras
 manos, con ejemplares alineados al fondo de la sala de juntas y distribuidos entre los lectores. Evocamos la
@@ -1608,7 +1606,7 @@ La repetición de esta práctica, así como su visualización mientras se realiz
 Nicklaus y otros muchos juegan a golf, visualizan el swing, la trayectoria de la bola,
 dónde aterrizará y también la sensación ante el buen resultado del golpe.
 
-:::dotted-box
+:::dotted-box-text-start
 
 STEPHEN: Soy aficionado al tenis y me gusta el juego competitivo. Para realizar el saque lo más rápido,
 directo y preciso posible, empleo la técnica de visualización que aprendí hace años de mi coach, el Dr.
@@ -1667,7 +1665,7 @@ asustado. La goma elástica representa la tensión entre tus deseos para el futu
 punto de partida actual. La tensión positiva entre el presente y el futuro te motivará a
 actuar para alcanzar el mejor escenario.
 
-:::dotted-box
+:::dotted-box-text-start
 
 AMIR: Un buen amigo arquitecto me explicó que en breve iba a presentar un proyecto al Ayuntamiento.
 Cuando le pregunté cuánto esperaba obtener, me dijo que sería fabuloso conseguir 200.000 $, pero acto
@@ -1738,8 +1736,7 @@ Martin Luther King quería una sociedad mejor y no únicamente acabar con la
 segregación.
 
 :::solid-box
-#### Claves
-
+**Claves**
 * Tu mejor escenario es un sueño, pero no imposible de conseguir.
 * Utiliza técnicas de visualización para experimentar tu mejor escenario.
 * Cierra los ojos e imagínate en el futuro, viviendo tu mejor escenario.
@@ -1803,7 +1800,7 @@ recursos.
 La mejor manera de identificarlos es pensar en los elementos clave del mejor
 escenario y luego escribir lo que los obstaculiza. Observa el siguiente ejemplo:
 
-:::dotted-box
+:::dotted-box-text-start
 Anne y Rick tienen conflictos cada semana con respecto al dinero y eso está afectando a su relación en
 aspectos como la confianza, el respeto y la intimidad. Rick es más derrochador, mientras que Anne es más
 ahorradora.
@@ -1860,7 +1857,7 @@ Desmenuzar los obstáculos y digerirlos en porciones más pequeñas hace más ll
 ##pag:68
 
 :::solid-box
-#### Claves
+**Claves**
 * Los obstáculos son retos específicos que te impiden lograr el mejor escenario.
 * Un conflicto es más llevadero si lo divides en partes pequeñas.
 :::
@@ -1962,8 +1959,8 @@ disfrutarían igual en una casa en un lago cercano y que les costaría 5.000 $ m
 acordaron también revisar sus finanzas cada tres meses para comprobar que se
 ajustaban a sus objetivos.
 
-:::dotted-box
-#### Claves
+:::solid-box
+**Claves**
 * Primero, separad los obstáculos en los que es posible influir de los que están fuera de control. Hay que concentrarse en las trabas controlables y aceptar las que no lo son.
 *Después, repartid las tareas para superar los obstáculos controlables. Decidid quién se hará cargo de cada tarea, qué implicará esta y el plazo de tiempo necesario para llevarla a cabo.
 * Fijad un plan a largo plazo.
@@ -2049,7 +2046,7 @@ sana puede ser crónica y frustrante. Nos tientan con comida apetitosa por todas
 partes, en carteles publicitarios y en anuncios en la televisión, y a menudo es muy
 difícil optar por una alimentación que nos mantenga sanos y fuertes.
 
-:::dotted-box
+:::dotted-box-text-start
 AMIR (Stephen también ha vivido esa experiencia): Durante años he mantenido un conflicto interno
 acerca de mi peso y mis hábitos alimentarios. Leí muchos artículos sobre cómo perder peso, hojeé
 numerosos libros de dietas y, gracias a una práctica deportiva intensa, sabía qué es la autodisciplina. Por
@@ -2061,7 +2058,7 @@ tan bien que merezco un trozo de pastel». O podía comerme tres barritas de cer
 
 ##pag:76
 
-:::dotted-box
+:::dotted-box-text-start
 de una madalena con pepitas de chocolate, porque las barritas eran más sanas. Y poco a poco todo se venía
 abajo porque siempre encontraba la manera de burlar mis propias reglas.
 
@@ -2094,7 +2091,7 @@ personas sentadas y trabajando para satisfacer los deseos de ambas.
 ### Paso 1. Entenderse a uno mismo y a la otra persona
 
 La persona partidaria de una vida sana:
-:::dotted-box
+:::dotted-box-text-start
 El conflicto es que constantemente estoy tentado de saltarme la dieta comiendo cosas apetitosas pero que
 suelen tener un alto contenido calórico y de grasas. Esto me hace sentir que me falta autocontrol y que no
 soy capaz de seguir una rutina con disciplina y, a la vez, disminuye mi autoestima. Para mí es importante
@@ -2105,7 +2102,7 @@ cotidiana.
 ##pag:77
 
 La persona favorable a la libertad de elección:
-:::dotted-box
+:::dotted-box-text-start
 El conflicto es que al seguir esas dietas me siento agobiado y prisionero de ellas. En la vida hay que
 controlar muchas cosas, así que ¿por qué no puedo relajarme en lo que respecta a la comida? Cuando hago
 dieta siento que me estoy perdiendo una parte de mi vida que merezco disfrutar porque trabajo muy duro en
@@ -2214,7 +2211,7 @@ futuro y pensar en cómo alcanzarla. Los pasos y las preguntas del método Nonfl
 ofrecen el marco para ese diálogo y guían en una dirección constructiva. (Para más
 información sobre este tema, véase el apéndice.)
 
-:::dotted-box
+:::dotted-box-text-start
 UN PARTICIPANTE ISRAELÍ: Las reuniones con la otra parte fueron lo más significativo que he hecho en mi
 vida. Tuvieron más sentido para mí que cualquiera de las empresas que he creado, más que todas las
 personas que he contratado y todos mis logros anteriores. Todo el mundo, de una y otra parte, estaba allí
@@ -2243,7 +2240,7 @@ un campamento de refugiados en Cisjordania.
 
 ##pag:82
 
-:::dotted-box
+:::dotted-box-text-start
 STEPHEN: En el campo de refugiados visité una cooperativa de mujeres para conocer los retos a los que se
 enfrentaban a diario. Durante nuestro encuentro, compartí con ellas el método Nonflict como instrumento
 para la resolución de conflictos. Al cabo de cuatro horas, las mujeres pasaron de la desconfianza hacia los
@@ -2260,7 +2257,7 @@ carrera segura en una compañía inmobiliaria para dedicarme por completo a comp
 :::
 
 :::solid-box
-#### Claves
+**Claves**
 * Con pequeños ajustes, el método Nonflict funciona tanto para conflictos internos como para los de grupo.
 * Para los conflictos internos hay que separar los deseos opuestos como si fueran los de dos personas diferentes y luego seguir los pasos del método.
 * Para los conflictos de grupo, hay que elegir un moderador que lidere el proceso y refleje a los miembros cuando sea necesario.

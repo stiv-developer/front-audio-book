@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
-import { LucideDynamicIcon, LucideList, LucidePause, LucidePlay, LucideRotateCw, LucideSkipBack, LucideSkipForward } from '@lucide/angular';
+import { LucideCog, LucideDynamicIcon, LucideList, LucidePause, LucidePlay, LucideRotateCw, LucideSkipBack, LucideSkipForward } from '@lucide/angular';
 import { MarkdownModule } from 'ngx-markdown';
 import { NavbarService } from '../../service/navbar';
 import { LibroService } from '../../service/libro.service';
@@ -24,7 +24,8 @@ export class Read {
   playbackRate = 1;
   isReading = signal<boolean>(false);
   modoContinuo = signal<boolean>(false);
-  indice = signal<{texto: string, nivel:number, pagina: number}[]>([])
+  indice = signal<{texto: string, nivel:number, pagina: number}[]>([]);
+  isDropdownOpen = signal<boolean>(false);
 
   private synth = window.speechSynthesis;
 
@@ -34,6 +35,7 @@ export class Read {
   readonly IconPrev = LucideSkipBack;
   readonly IconRotate = LucideRotateCw;
   readonly IconList = LucideList;
+  readonly IconCog = LucideCog;
 
   constructor() {
     
@@ -59,9 +61,15 @@ export class Read {
         // Indice
         page = page.replace(/:::indice([\s\S]*?):::/g, '<div class="custom-toc">\n\n$1\n\n</div>');
 
+        page = page.replace(/:::dotted-box-text-start([\s\S]*?):::/g, (match, contenido) => {
+          return `<div class="dotted-box-text-start">\n\n${contenido}\n\n</div>`;
+        })
+
         page = page.replace(/:::dotted-box([\s\S]*?):::/g, (match, contenido) => {
           return `<div class="dotted-box">\n\n${contenido}\n\n</div>`
         });
+
+       
 
         page = page.replace(/:::solid-box([\s\S]*?):::/g, (match, contenido) => {
           return `<div class="solid-box">\n\n${contenido}\n\n</div>`
@@ -191,6 +199,21 @@ export class Read {
   
     if (elemento) {
       elemento.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  toggleDropdown() {
+    this.isDropdownOpen.update(v => !v);
+  }
+
+  toggleTheme() {
+    const html = document.documentElement;
+    if(html.classList.contains('dark')) {
+      html.classList.remove('dark');
+      localStorage.setItem('theme', 'light')
+    } else {
+      html.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
     }
   }
 }
